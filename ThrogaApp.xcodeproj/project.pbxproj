@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1E047418AC430200FD5A5A /* a-3-1-3.aif in Resources */ = {isa = PBXBuildFile; fileRef = BE1E046A18AC430200FD5A5A /* a-3-1-3.aif */; };
+		BE1E047518AC430200FD5A5A /* a-3-1-4.aif in Resources */ = {isa = PBXBuildFile; fileRef = BE1E046B18AC430200FD5A5A /* a-3-1-4.aif */; };
+		BE1E047618AC430200FD5A5A /* a-3-1-5.aif in Resources */ = {isa = PBXBuildFile; fileRef = BE1E046C18AC430200FD5A5A /* a-3-1-5.aif */; };
+		BE1E047718AC430200FD5A5A /* a-3-1-6.aif in Resources */ = {isa = PBXBuildFile; fileRef = BE1E046D18AC430200FD5A5A /* a-3-1-6.aif */; };
+		BE1E047818AC430200FD5A5A /* a-3-1-7.aif in Resources */ = {isa = PBXBuildFile; fileRef = BE1E046E18AC430200FD5A5A /* a-3-1-7.aif */; };
+		BE1E047918AC430200FD5A5A /* a-3-1-8.aif in Resources */ = {isa = PBXBuildFile; fileRef = BE1E046F18AC430200FD5A5A /* a-3-1-8.aif */; };
+		BE1E047A18AC430200FD5A5A /* a-3-1-9.aif in Resources */ = {isa = PBXBuildFile; fileRef = BE1E047018AC430200FD5A5A /* a-3-1-9.aif */; };
+		BE1E047B18AC430200FD5A5A /* a-3-1-10.aif in Resources */ = {isa = PBXBuildFile; fileRef = BE1E047118AC430200FD5A5A /* a-3-1-10.aif */; };
+		BE1E047C18AC430200FD5A5A /* a-3-1-11.aif in Resources */ = {isa = PBXBuildFile; fileRef = BE1E047218AC430200FD5A5A /* a-3-1-11.aif */; };
+		BE1E047D18AC430200FD5A5A /* a-3-1-12.aif in Resources */ = {isa = PBXBuildFile; fileRef = BE1E047318AC430200FD5A5A /* a-3-1-12.aif */; };
+		BE8DDE7918AAA0D1003A8BDD /* pattern-1.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE6718AAA0D1003A8BDD /* pattern-1.mid */; };
+		BE8DDE7A18AAA0D1003A8BDD /* pattern-2.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE6818AAA0D1003A8BDD /* pattern-2.mid */; };
+		BE8DDE7B18AAA0D1003A8BDD /* pattern-3.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE6918AAA0D1003A8BDD /* pattern-3.mid */; };
+		BE8DDE7C18AAA0D1003A8BDD /* pattern-4.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE6A18AAA0D1003A8BDD /* pattern-4.mid */; };
+		BE8DDE7D18AAA0D1003A8BDD /* pattern-5.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE6B18AAA0D1003A8BDD /* pattern-5.mid */; };
+		BE8DDE7E18AAA0D1003A8BDD /* pattern-6.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE6C18AAA0D1003A8BDD /* pattern-6.mid */; };
+		BE8DDE7F18AAA0D1003A8BDD /* pattern-7.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE6D18AAA0D1003A8BDD /* pattern-7.mid */; };
+		BE8DDE8018AAA0D1003A8BDD /* pattern-8.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE6E18AAA0D1003A8BDD /* pattern-8.mid */; };
+		BE8DDE8118AAA0D1003A8BDD /* pattern-9.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE6F18AAA0D1003A8BDD /* pattern-9.mid */; };
+		BE8DDE8218AAA0D1003A8BDD /* pattern-10.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE7018AAA0D1003A8BDD /* pattern-10.mid */; };
+		BE8DDE8318AAA0D1003A8BDD /* pattern-11.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE7118AAA0D1003A8BDD /* pattern-11.mid */; };
+		BE8DDE8418AAA0D1003A8BDD /* pattern-12.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE7218AAA0D1003A8BDD /* pattern-12.mid */; };
+		BE8DDE8518AAA0D1003A8BDD /* pattern-13.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE7318AAA0D1003A8BDD /* pattern-13.mid */; };
+		BE8DDE8618AAA0D1003A8BDD /* pattern-14.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE7418AAA0D1003A8BDD /* pattern-14.mid */; };
+		BE8DDE8718AAA0D1003A8BDD /* pattern-15.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE7518AAA0D1003A8BDD /* pattern-15.mid */; };
+		BE8DDE8818AAA0D1003A8BDD /* pattern-16.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE7618AAA0D1003A8BDD /* pattern-16.mid */; };
+		BE8DDE8918AAA0D1003A8BDD /* pattern-17.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE7718AAA0D1003A8BDD /* pattern-17.mid */; };
+		BE8DDE8A18AAA0D1003A8BDD /* pattern-18.mid in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE7818AAA0D1003A8BDD /* pattern-18.mid */; };
+		BE8DDE8C18AAA7E4003A8BDD /* MiniPiano.SF2 in Resources */ = {isa = PBXBuildFile; fileRef = BE8DDE8B18AAA7E4003A8BDD /* MiniPiano.SF2 */; };
+		BE8DDE8F18AAA7FD003A8BDD /* MidiPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8DDE8E18AAA7FD003A8BDD /* MidiPlayer.m */; };
+		BE95E0B5189EE08B00C804CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE95E0B4189EE08B00C804CA /* Foundation.framework */; };
+		BE95E0B7189EE08B00C804CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE95E0B6189EE08B00C804CA /* CoreGraphics.framework */; };
+		BE95E0B9189EE08B00C804CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE95E0B8189EE08B00C804CA /* UIKit.framework */; };
+		BE95E0BF189EE08B00C804CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE95E0BD189EE08B00C804CA /* InfoPlist.strings */; };
+		BE95E0C1189EE08B00C804CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E0C0189EE08B00C804CA /* main.m */; };
+		BE95E0CD189EE08B00C804CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE95E0CC189EE08B00C804CA /* Images.xcassets */; };
+		BE95E0D4189EE08C00C804CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE95E0D3189EE08C00C804CA /* XCTest.framework */; };
+		BE95E0D5189EE08C00C804CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE95E0B4189EE08B00C804CA /* Foundation.framework */; };
+		BE95E0D6189EE08C00C804CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE95E0B8189EE08B00C804CA /* UIKit.framework */; };
+		BE95E0EA189EE0D400C804CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE95E0E9189EE0D400C804CA /* QuartzCore.framework */; };
+		BE95E0EC189EE0E000C804CA /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BE95E0EB189EE0E000C804CA /* libsqlite3.0.dylib */; };
+		BE95E0EE189EE11400C804CA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE95E0ED189EE11400C804CA /* MediaPlayer.framework */; };
+		BE95E121189EE59800C804CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E0F1189EE59800C804CA /* AppDelegate.m */; };
+		BE95E122189EE59800C804CA /* CommunityBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E0F4189EE59800C804CA /* CommunityBoardViewController.m */; };
+		BE95E123189EE59800C804CA /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E0F6189EE59800C804CA /* CreateAccountViewController.m */; };
+		BE95E124189EE59800C804CA /* ExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E0F8189EE59800C804CA /* ExerciseViewController.m */; };
+		BE95E125189EE59800C804CA /* GetStartedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E0FA189EE59800C804CA /* GetStartedViewController.m */; };
+		BE95E126189EE59800C804CA /* GuidelinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E0FC189EE59800C804CA /* GuidelinesViewController.m */; };
+		BE95E127189EE59800C804CA /* LearnMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E0FE189EE59800C804CA /* LearnMoreViewController.m */; };
+		BE95E128189EE59800C804CA /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E100189EE59800C804CA /* SignInViewController.m */; };
+		BE95E129189EE59800C804CA /* SingingStylesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E102189EE59800C804CA /* SingingStylesViewController.m */; };
+		BE95E12A189EE59800C804CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E104189EE59800C804CA /* ViewController.m */; };
+		BE95E12B189EE59800C804CA /* VocalGymViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E106189EE59800C804CA /* VocalGymViewController.m */; };
+		BE95E12C189EE59800C804CA /* WarmupMinutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E109189EE59800C804CA /* WarmupMinutesViewController.m */; };
+		BE95E12D189EE59800C804CA /* WarmupVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E10B189EE59800C804CA /* WarmupVideoViewController.m */; };
+		BE95E12E189EE59800C804CA /* WarmupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E10D189EE59800C804CA /* WarmupViewController.m */; };
+		BE95E12F189EE59800C804CA /* WorkoutMinutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E110189EE59800C804CA /* WorkoutMinutesViewController.m */; };
+		BE95E130189EE59800C804CA /* WorkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E112189EE59800C804CA /* WorkoutViewController.m */; };
+		BE95E131189EE59800C804CA /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E115189EE59800C804CA /* Database.m */; };
+		BE95E132189EE59800C804CA /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E117189EE59800C804CA /* Exercise.m */; };
+		BE95E134189EE59800C804CA /* PianoKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E11B189EE59800C804CA /* PianoKeyboardView.m */; };
+		BE95E135189EE59800C804CA /* PianoKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E11D189EE59800C804CA /* PianoKeyView.m */; };
+		BE95E136189EE59800C804CA /* UIColor+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = BE95E120189EE59800C804CA /* UIColor+Tools.m */; };
+		BE95E138189EE63700C804CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE95E137189EE63700C804CA /* Main.storyboard */; };
+		BE95E13A189EE90200C804CA /* throga.db in Resources */ = {isa = PBXBuildFile; fileRef = BE95E139189EE90200C804CA /* throga.db */; };
+		BE95E13D189EE97A00C804CA /* warmup_video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = BE95E13C189EE97A00C804CA /* warmup_video.m4v */; };
+		BE95E13F189EE9BB00C804CA /* throga.sql in Resources */ = {isa = PBXBuildFile; fileRef = BE95E13E189EE9BB00C804CA /* throga.sql */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE95E0D7189EE08C00C804CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE95E0A9189EE08B00C804CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE95E0B0189EE08B00C804CA;
+			remoteInfo = ThrogaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE1E046A18AC430200FD5A5A /* a-3-1-3.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-3-1-3.aif"; sourceTree = "<group>"; };
+		BE1E046B18AC430200FD5A5A /* a-3-1-4.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-3-1-4.aif"; sourceTree = "<group>"; };
+		BE1E046C18AC430200FD5A5A /* a-3-1-5.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-3-1-5.aif"; sourceTree = "<group>"; };
+		BE1E046D18AC430200FD5A5A /* a-3-1-6.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-3-1-6.aif"; sourceTree = "<group>"; };
+		BE1E046E18AC430200FD5A5A /* a-3-1-7.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-3-1-7.aif"; sourceTree = "<group>"; };
+		BE1E046F18AC430200FD5A5A /* a-3-1-8.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-3-1-8.aif"; sourceTree = "<group>"; };
+		BE1E047018AC430200FD5A5A /* a-3-1-9.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-3-1-9.aif"; sourceTree = "<group>"; };
+		BE1E047118AC430200FD5A5A /* a-3-1-10.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-3-1-10.aif"; sourceTree = "<group>"; };
+		BE1E047218AC430200FD5A5A /* a-3-1-11.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-3-1-11.aif"; sourceTree = "<group>"; };
+		BE1E047318AC430200FD5A5A /* a-3-1-12.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-3-1-12.aif"; sourceTree = "<group>"; };
+		BE8DDE6718AAA0D1003A8BDD /* pattern-1.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-1.mid"; sourceTree = "<group>"; };
+		BE8DDE6818AAA0D1003A8BDD /* pattern-2.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-2.mid"; sourceTree = "<group>"; };
+		BE8DDE6918AAA0D1003A8BDD /* pattern-3.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-3.mid"; sourceTree = "<group>"; };
+		BE8DDE6A18AAA0D1003A8BDD /* pattern-4.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-4.mid"; sourceTree = "<group>"; };
+		BE8DDE6B18AAA0D1003A8BDD /* pattern-5.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-5.mid"; sourceTree = "<group>"; };
+		BE8DDE6C18AAA0D1003A8BDD /* pattern-6.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-6.mid"; sourceTree = "<group>"; };
+		BE8DDE6D18AAA0D1003A8BDD /* pattern-7.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-7.mid"; sourceTree = "<group>"; };
+		BE8DDE6E18AAA0D1003A8BDD /* pattern-8.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-8.mid"; sourceTree = "<group>"; };
+		BE8DDE6F18AAA0D1003A8BDD /* pattern-9.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-9.mid"; sourceTree = "<group>"; };
+		BE8DDE7018AAA0D1003A8BDD /* pattern-10.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-10.mid"; sourceTree = "<group>"; };
+		BE8DDE7118AAA0D1003A8BDD /* pattern-11.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-11.mid"; sourceTree = "<group>"; };
+		BE8DDE7218AAA0D1003A8BDD /* pattern-12.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-12.mid"; sourceTree = "<group>"; };
+		BE8DDE7318AAA0D1003A8BDD /* pattern-13.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-13.mid"; sourceTree = "<group>"; };
+		BE8DDE7418AAA0D1003A8BDD /* pattern-14.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-14.mid"; sourceTree = "<group>"; };
+		BE8DDE7518AAA0D1003A8BDD /* pattern-15.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-15.mid"; sourceTree = "<group>"; };
+		BE8DDE7618AAA0D1003A8BDD /* pattern-16.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-16.mid"; sourceTree = "<group>"; };
+		BE8DDE7718AAA0D1003A8BDD /* pattern-17.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-17.mid"; sourceTree = "<group>"; };
+		BE8DDE7818AAA0D1003A8BDD /* pattern-18.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "pattern-18.mid"; sourceTree = "<group>"; };
+		BE8DDE8B18AAA7E4003A8BDD /* MiniPiano.SF2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MiniPiano.SF2; sourceTree = "<group>"; };
+		BE8DDE8D18AAA7FD003A8BDD /* MidiPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiPlayer.h; sourceTree = "<group>"; };
+		BE8DDE8E18AAA7FD003A8BDD /* MidiPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidiPlayer.m; sourceTree = "<group>"; };
+		BE95E0B1189EE08B00C804CA /* ThrogaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThrogaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE95E0B4189EE08B00C804CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE95E0B6189EE08B00C804CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE95E0B8189EE08B00C804CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE95E0BC189EE08B00C804CA /* ThrogaApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThrogaApp-Info.plist"; sourceTree = "<group>"; };
+		BE95E0BE189EE08B00C804CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE95E0C0189EE08B00C804CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE95E0C2189EE08B00C804CA /* ThrogaApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThrogaApp-Prefix.pch"; sourceTree = "<group>"; };
+		BE95E0CC189EE08B00C804CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE95E0D2189EE08C00C804CA /* ThrogaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThrogaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE95E0D3189EE08C00C804CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BE95E0E9189EE0D400C804CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE95E0EB189EE0E000C804CA /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		BE95E0ED189EE11400C804CA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BE95E0F0189EE59800C804CA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE95E0F1189EE59800C804CA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE95E0F3189EE59800C804CA /* CommunityBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityBoardViewController.h; sourceTree = "<group>"; };
+		BE95E0F4189EE59800C804CA /* CommunityBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityBoardViewController.m; sourceTree = "<group>"; };
+		BE95E0F5189EE59800C804CA /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
+		BE95E0F6189EE59800C804CA /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		BE95E0F7189EE59800C804CA /* ExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseViewController.h; sourceTree = "<group>"; };
+		BE95E0F8189EE59800C804CA /* ExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseViewController.m; sourceTree = "<group>"; };
+		BE95E0F9189EE59800C804CA /* GetStartedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetStartedViewController.h; sourceTree = "<group>"; };
+		BE95E0FA189EE59800C804CA /* GetStartedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetStartedViewController.m; sourceTree = "<group>"; };
+		BE95E0FB189EE59800C804CA /* GuidelinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidelinesViewController.h; sourceTree = "<group>"; };
+		BE95E0FC189EE59800C804CA /* GuidelinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidelinesViewController.m; sourceTree = "<group>"; };
+		BE95E0FD189EE59800C804CA /* LearnMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnMoreViewController.h; sourceTree = "<group>"; };
+		BE95E0FE189EE59800C804CA /* LearnMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnMoreViewController.m; sourceTree = "<group>"; };
+		BE95E0FF189EE59800C804CA /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		BE95E100189EE59800C804CA /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		BE95E101189EE59800C804CA /* SingingStylesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingingStylesViewController.h; sourceTree = "<group>"; };
+		BE95E102189EE59800C804CA /* SingingStylesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingingStylesViewController.m; sourceTree = "<group>"; };
+		BE95E103189EE59800C804CA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE95E104189EE59800C804CA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE95E105189EE59800C804CA /* VocalGymViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VocalGymViewController.h; sourceTree = "<group>"; };
+		BE95E106189EE59800C804CA /* VocalGymViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VocalGymViewController.m; sourceTree = "<group>"; };
+		BE95E108189EE59800C804CA /* WarmupMinutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmupMinutesViewController.h; sourceTree = "<group>"; };
+		BE95E109189EE59800C804CA /* WarmupMinutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmupMinutesViewController.m; sourceTree = "<group>"; };
+		BE95E10A189EE59800C804CA /* WarmupVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmupVideoViewController.h; sourceTree = "<group>"; };
+		BE95E10B189EE59800C804CA /* WarmupVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmupVideoViewController.m; sourceTree = "<group>"; };
+		BE95E10C189EE59800C804CA /* WarmupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarmupViewController.h; sourceTree = "<group>"; };
+		BE95E10D189EE59800C804CA /* WarmupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarmupViewController.m; sourceTree = "<group>"; };
+		BE95E10F189EE59800C804CA /* WorkoutMinutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutMinutesViewController.h; sourceTree = "<group>"; };
+		BE95E110189EE59800C804CA /* WorkoutMinutesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutMinutesViewController.m; sourceTree = "<group>"; };
+		BE95E111189EE59800C804CA /* WorkoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutViewController.h; sourceTree = "<group>"; };
+		BE95E112189EE59800C804CA /* WorkoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutViewController.m; sourceTree = "<group>"; };
+		BE95E114189EE59800C804CA /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		BE95E115189EE59800C804CA /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		BE95E116189EE59800C804CA /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
+		BE95E117189EE59800C804CA /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
+		BE95E11A189EE59800C804CA /* PianoKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoKeyboardView.h; sourceTree = "<group>"; };
+		BE95E11B189EE59800C804CA /* PianoKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PianoKeyboardView.m; sourceTree = "<group>"; };
+		BE95E11C189EE59800C804CA /* PianoKeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoKeyView.h; sourceTree = "<group>"; };
+		BE95E11D189EE59800C804CA /* PianoKeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PianoKeyView.m; sourceTree = "<group>"; };
+		BE95E11F189EE59800C804CA /* UIColor+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tools.h"; sourceTree = "<group>"; };
+		BE95E120189EE59800C804CA /* UIColor+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tools.m"; sourceTree = "<group>"; };
+		BE95E137189EE63700C804CA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BE95E139189EE90200C804CA /* throga.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = throga.db; sourceTree = "<group>"; };
+		BE95E13C189EE97A00C804CA /* warmup_video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = warmup_video.m4v; sourceTree = "<group>"; };
+		BE95E13E189EE9BB00C804CA /* throga.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = throga.sql; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE95E0AE189EE08B00C804CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE95E0EE189EE11400C804CA /* MediaPlayer.framework in Frameworks */,
+				BE95E0EC189EE0E000C804CA /* libsqlite3.0.dylib in Frameworks */,
+				BE95E0EA189EE0D400C804CA /* QuartzCore.framework in Frameworks */,
+				BE95E0B7189EE08B00C804CA /* CoreGraphics.framework in Frameworks */,
+				BE95E0B9189EE08B00C804CA /* UIKit.framework in Frameworks */,
+				BE95E0B5189EE08B00C804CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE95E0CF189EE08C00C804CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE95E0D4189EE08C00C804CA /* XCTest.framework in Frameworks */,
+				BE95E0D6189EE08C00C804CA /* UIKit.framework in Frameworks */,
+				BE95E0D5189EE08C00C804CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1E043D18AC415C00FD5A5A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				BE1E046A18AC430200FD5A5A /* a-3-1-3.aif */,
+				BE1E046B18AC430200FD5A5A /* a-3-1-4.aif */,
+				BE1E046C18AC430200FD5A5A /* a-3-1-5.aif */,
+				BE1E046D18AC430200FD5A5A /* a-3-1-6.aif */,
+				BE1E046E18AC430200FD5A5A /* a-3-1-7.aif */,
+				BE1E046F18AC430200FD5A5A /* a-3-1-8.aif */,
+				BE1E047018AC430200FD5A5A /* a-3-1-9.aif */,
+				BE1E047118AC430200FD5A5A /* a-3-1-10.aif */,
+				BE1E047218AC430200FD5A5A /* a-3-1-11.aif */,
+				BE1E047318AC430200FD5A5A /* a-3-1-12.aif */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		BE95E0A8189EE08B00C804CA = {
+			isa = PBXGroup;
+			children = (
+				BE95E139189EE90200C804CA /* throga.db */,
+				BE95E0EF189EE59800C804CA /* Classes */,
+				BE95E0BB189EE08B00C804CA /* Supporting Files */,
+				BE95E140189EF9F400C804CA /* Music */,
+				BE95E13B189EE97A00C804CA /* Videos */,
+				BE95E0B3189EE08B00C804CA /* Frameworks */,
+				BE95E0B2189EE08B00C804CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE95E0B2189EE08B00C804CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E0B1189EE08B00C804CA /* ThrogaApp.app */,
+				BE95E0D2189EE08C00C804CA /* ThrogaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE95E0B3189EE08B00C804CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E0ED189EE11400C804CA /* MediaPlayer.framework */,
+				BE95E0EB189EE0E000C804CA /* libsqlite3.0.dylib */,
+				BE95E0E9189EE0D400C804CA /* QuartzCore.framework */,
+				BE95E0B4189EE08B00C804CA /* Foundation.framework */,
+				BE95E0B6189EE08B00C804CA /* CoreGraphics.framework */,
+				BE95E0B8189EE08B00C804CA /* UIKit.framework */,
+				BE95E0D3189EE08C00C804CA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE95E0BB189EE08B00C804CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE8DDE8B18AAA7E4003A8BDD /* MiniPiano.SF2 */,
+				BE95E137189EE63700C804CA /* Main.storyboard */,
+				BE95E0CC189EE08B00C804CA /* Images.xcassets */,
+				BE95E0BC189EE08B00C804CA /* ThrogaApp-Info.plist */,
+				BE95E0BD189EE08B00C804CA /* InfoPlist.strings */,
+				BE95E0C0189EE08B00C804CA /* main.m */,
+				BE95E13E189EE9BB00C804CA /* throga.sql */,
+				BE95E0C2189EE08B00C804CA /* ThrogaApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = ThrogaApp;
+			sourceTree = "<group>";
+		};
+		BE95E0EF189EE59800C804CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E0F0189EE59800C804CA /* AppDelegate.h */,
+				BE95E0F1189EE59800C804CA /* AppDelegate.m */,
+				BE95E0F2189EE59800C804CA /* Controllers */,
+				BE95E113189EE59800C804CA /* Database */,
+				BE95E119189EE59800C804CA /* Piano */,
+				BE95E11E189EE59800C804CA /* Utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BE95E0F2189EE59800C804CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E0F3189EE59800C804CA /* CommunityBoardViewController.h */,
+				BE95E0F4189EE59800C804CA /* CommunityBoardViewController.m */,
+				BE95E0F5189EE59800C804CA /* CreateAccountViewController.h */,
+				BE95E0F6189EE59800C804CA /* CreateAccountViewController.m */,
+				BE95E0F7189EE59800C804CA /* ExerciseViewController.h */,
+				BE95E0F8189EE59800C804CA /* ExerciseViewController.m */,
+				BE95E0F9189EE59800C804CA /* GetStartedViewController.h */,
+				BE95E0FA189EE59800C804CA /* GetStartedViewController.m */,
+				BE95E0FB189EE59800C804CA /* GuidelinesViewController.h */,
+				BE95E0FC189EE59800C804CA /* GuidelinesViewController.m */,
+				BE95E0FD189EE59800C804CA /* LearnMoreViewController.h */,
+				BE95E0FE189EE59800C804CA /* LearnMoreViewController.m */,
+				BE95E0FF189EE59800C804CA /* SignInViewController.h */,
+				BE95E100189EE59800C804CA /* SignInViewController.m */,
+				BE95E101189EE59800C804CA /* SingingStylesViewController.h */,
+				BE95E102189EE59800C804CA /* SingingStylesViewController.m */,
+				BE95E103189EE59800C804CA /* ViewController.h */,
+				BE95E104189EE59800C804CA /* ViewController.m */,
+				BE95E105189EE59800C804CA /* VocalGymViewController.h */,
+				BE95E106189EE59800C804CA /* VocalGymViewController.m */,
+				BE95E107189EE59800C804CA /* Warmup */,
+				BE95E10E189EE59800C804CA /* Workout */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BE95E107189EE59800C804CA /* Warmup */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E108189EE59800C804CA /* WarmupMinutesViewController.h */,
+				BE95E109189EE59800C804CA /* WarmupMinutesViewController.m */,
+				BE95E10A189EE59800C804CA /* WarmupVideoViewController.h */,
+				BE95E10B189EE59800C804CA /* WarmupVideoViewController.m */,
+				BE95E10C189EE59800C804CA /* WarmupViewController.h */,
+				BE95E10D189EE59800C804CA /* WarmupViewController.m */,
+			);
+			path = Warmup;
+			sourceTree = "<group>";
+		};
+		BE95E10E189EE59800C804CA /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E10F189EE59800C804CA /* WorkoutMinutesViewController.h */,
+				BE95E110189EE59800C804CA /* WorkoutMinutesViewController.m */,
+				BE95E111189EE59800C804CA /* WorkoutViewController.h */,
+				BE95E112189EE59800C804CA /* WorkoutViewController.m */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		BE95E113189EE59800C804CA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E114189EE59800C804CA /* Database.h */,
+				BE95E115189EE59800C804CA /* Database.m */,
+				BE95E116189EE59800C804CA /* Exercise.h */,
+				BE95E117189EE59800C804CA /* Exercise.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		BE95E119189EE59800C804CA /* Piano */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E11A189EE59800C804CA /* PianoKeyboardView.h */,
+				BE95E11B189EE59800C804CA /* PianoKeyboardView.m */,
+				BE95E11C189EE59800C804CA /* PianoKeyView.h */,
+				BE95E11D189EE59800C804CA /* PianoKeyView.m */,
+				BE8DDE8D18AAA7FD003A8BDD /* MidiPlayer.h */,
+				BE8DDE8E18AAA7FD003A8BDD /* MidiPlayer.m */,
+			);
+			path = Piano;
+			sourceTree = "<group>";
+		};
+		BE95E11E189EE59800C804CA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E11F189EE59800C804CA /* UIColor+Tools.h */,
+				BE95E120189EE59800C804CA /* UIColor+Tools.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BE95E13B189EE97A00C804CA /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				BE95E13C189EE97A00C804CA /* warmup_video.m4v */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		BE95E140189EF9F400C804CA /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				BE1E043D18AC415C00FD5A5A /* Audio */,
+				BE8DDE6718AAA0D1003A8BDD /* pattern-1.mid */,
+				BE8DDE6818AAA0D1003A8BDD /* pattern-2.mid */,
+				BE8DDE6918AAA0D1003A8BDD /* pattern-3.mid */,
+				BE8DDE6A18AAA0D1003A8BDD /* pattern-4.mid */,
+				BE8DDE6B18AAA0D1003A8BDD /* pattern-5.mid */,
+				BE8DDE6C18AAA0D1003A8BDD /* pattern-6.mid */,
+				BE8DDE6D18AAA0D1003A8BDD /* pattern-7.mid */,
+				BE8DDE6E18AAA0D1003A8BDD /* pattern-8.mid */,
+				BE8DDE6F18AAA0D1003A8BDD /* pattern-9.mid */,
+				BE8DDE7018AAA0D1003A8BDD /* pattern-10.mid */,
+				BE8DDE7118AAA0D1003A8BDD /* pattern-11.mid */,
+				BE8DDE7218AAA0D1003A8BDD /* pattern-12.mid */,
+				BE8DDE7318AAA0D1003A8BDD /* pattern-13.mid */,
+				BE8DDE7418AAA0D1003A8BDD /* pattern-14.mid */,
+				BE8DDE7518AAA0D1003A8BDD /* pattern-15.mid */,
+				BE8DDE7618AAA0D1003A8BDD /* pattern-16.mid */,
+				BE8DDE7718AAA0D1003A8BDD /* pattern-17.mid */,
+				BE8DDE7818AAA0D1003A8BDD /* pattern-18.mid */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE95E0B0189EE08B00C804CA /* ThrogaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE95E0E3189EE08C00C804CA /* Build configuration list for PBXNativeTarget "ThrogaApp" */;
+			buildPhases = (
+				BE95E0AD189EE08B00C804CA /* Sources */,
+				BE95E0AE189EE08B00C804CA /* Frameworks */,
+				BE95E0AF189EE08B00C804CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThrogaApp;
+			productName = ThrogaApp;
+			productReference = BE95E0B1189EE08B00C804CA /* ThrogaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE95E0D1189EE08C00C804CA /* ThrogaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE95E0E6189EE08C00C804CA /* Build configuration list for PBXNativeTarget "ThrogaAppTests" */;
+			buildPhases = (
+				BE95E0CE189EE08C00C804CA /* Sources */,
+				BE95E0CF189EE08C00C804CA /* Frameworks */,
+				BE95E0D0189EE08C00C804CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE95E0D8189EE08C00C804CA /* PBXTargetDependency */,
+			);
+			name = ThrogaAppTests;
+			productName = ThrogaAppTests;
+			productReference = BE95E0D2189EE08C00C804CA /* ThrogaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE95E0A9189EE08B00C804CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Parallel6;
+				TargetAttributes = {
+					BE95E0B0189EE08B00C804CA = {
+						DevelopmentTeam = K6JCWTND64;
+					};
+					BE95E0D1189EE08C00C804CA = {
+						TestTargetID = BE95E0B0189EE08B00C804CA;
+					};
+				};
+			};
+			buildConfigurationList = BE95E0AC189EE08B00C804CA /* Build configuration list for PBXProject "ThrogaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE95E0A8189EE08B00C804CA;
+			productRefGroup = BE95E0B2189EE08B00C804CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE95E0B0189EE08B00C804CA /* ThrogaApp */,
+				BE95E0D1189EE08C00C804CA /* ThrogaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE95E0AF189EE08B00C804CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1E047418AC430200FD5A5A /* a-3-1-3.aif in Resources */,
+				BE8DDE8018AAA0D1003A8BDD /* pattern-8.mid in Resources */,
+				BE1E047618AC430200FD5A5A /* a-3-1-5.aif in Resources */,
+				BE95E138189EE63700C804CA /* Main.storyboard in Resources */,
+				BE95E0CD189EE08B00C804CA /* Images.xcassets in Resources */,
+				BE8DDE8918AAA0D1003A8BDD /* pattern-17.mid in Resources */,
+				BE8DDE7C18AAA0D1003A8BDD /* pattern-4.mid in Resources */,
+				BE95E13D189EE97A00C804CA /* warmup_video.m4v in Resources */,
+				BE95E13A189EE90200C804CA /* throga.db in Resources */,
+				BE1E047D18AC430200FD5A5A /* a-3-1-12.aif in Resources */,
+				BE8DDE7D18AAA0D1003A8BDD /* pattern-5.mid in Resources */,
+				BE8DDE8618AAA0D1003A8BDD /* pattern-14.mid in Resources */,
+				BE8DDE7A18AAA0D1003A8BDD /* pattern-2.mid in Resources */,
+				BE8DDE8118AAA0D1003A8BDD /* pattern-9.mid in Resources */,
+				BE1E047718AC430200FD5A5A /* a-3-1-6.aif in Resources */,
+				BE1E047A18AC430200FD5A5A /* a-3-1-9.aif in Resources */,
+				BE8DDE7918AAA0D1003A8BDD /* pattern-1.mid in Resources */,
+				BE1E047918AC430200FD5A5A /* a-3-1-8.aif in Resources */,
+				BE8DDE7B18AAA0D1003A8BDD /* pattern-3.mid in Resources */,
+				BE8DDE8418AAA0D1003A8BDD /* pattern-12.mid in Resources */,
+				BE8DDE8C18AAA7E4003A8BDD /* MiniPiano.SF2 in Resources */,
+				BE1E047C18AC430200FD5A5A /* a-3-1-11.aif in Resources */,
+				BE1E047B18AC430200FD5A5A /* a-3-1-10.aif in Resources */,
+				BE1E047818AC430200FD5A5A /* a-3-1-7.aif in Resources */,
+				BE8DDE8218AAA0D1003A8BDD /* pattern-10.mid in Resources */,
+				BE8DDE8318AAA0D1003A8BDD /* pattern-11.mid in Resources */,
+				BE1E047518AC430200FD5A5A /* a-3-1-4.aif in Resources */,
+				BE95E0BF189EE08B00C804CA /* InfoPlist.strings in Resources */,
+				BE8DDE8718AAA0D1003A8BDD /* pattern-15.mid in Resources */,
+				BE8DDE8A18AAA0D1003A8BDD /* pattern-18.mid in Resources */,
+				BE8DDE7E18AAA0D1003A8BDD /* pattern-6.mid in Resources */,
+				BE95E13F189EE9BB00C804CA /* throga.sql in Resources */,
+				BE8DDE7F18AAA0D1003A8BDD /* pattern-7.mid in Resources */,
+				BE8DDE8518AAA0D1003A8BDD /* pattern-13.mid in Resources */,
+				BE8DDE8818AAA0D1003A8BDD /* pattern-16.mid in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE95E0D0189EE08C00C804CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE95E0AD189EE08B00C804CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE95E130189EE59800C804CA /* WorkoutViewController.m in Sources */,
+				BE95E12B189EE59800C804CA /* VocalGymViewController.m in Sources */,
+				BE95E135189EE59800C804CA /* PianoKeyView.m in Sources */,
+				BE8DDE8F18AAA7FD003A8BDD /* MidiPlayer.m in Sources */,
+				BE95E127189EE59800C804CA /* LearnMoreViewController.m in Sources */,
+				BE95E136189EE59800C804CA /* UIColor+Tools.m in Sources */,
+				BE95E132189EE59800C804CA /* Exercise.m in Sources */,
+				BE95E126189EE59800C804CA /* GuidelinesViewController.m in Sources */,
+				BE95E123189EE59800C804CA /* CreateAccountViewController.m in Sources */,
+				BE95E125189EE59800C804CA /* GetStartedViewController.m in Sources */,
+				BE95E122189EE59800C804CA /* CommunityBoardViewController.m in Sources */,
+				BE95E12A189EE59800C804CA /* ViewController.m in Sources */,
+				BE95E124189EE59800C804CA /* ExerciseViewController.m in Sources */,
+				BE95E12F189EE59800C804CA /* WorkoutMinutesViewController.m in Sources */,
+				BE95E129189EE59800C804CA /* SingingStylesViewController.m in Sources */,
+				BE95E12E189EE59800C804CA /* WarmupViewController.m in Sources */,
+				BE95E12C189EE59800C804CA /* WarmupMinutesViewController.m in Sources */,
+				BE95E134189EE59800C804CA /* PianoKeyboardView.m in Sources */,
+				BE95E12D189EE59800C804CA /* WarmupVideoViewController.m in Sources */,
+				BE95E121189EE59800C804CA /* AppDelegate.m in Sources */,
+				BE95E128189EE59800C804CA /* SignInViewController.m in Sources */,
+				BE95E131189EE59800C804CA /* Database.m in Sources */,
+				BE95E0C1189EE08B00C804CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE95E0CE189EE08C00C804CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE95E0D8189EE08C00C804CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE95E0B0189EE08B00C804CA /* ThrogaApp */;
+			targetProxy = BE95E0D7189EE08C00C804CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE95E0BD189EE08B00C804CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE95E0BE189EE08B00C804CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE95E0E1189EE08C00C804CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mick Oyer (5R6F6Y7Z57)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE95E0E2189EE08C00C804CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mick Oyer (5R6F6Y7Z57)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE95E0E4189EE08C00C804CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mick Oyer (5R6F6Y7Z57)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mick Oyer (5R6F6Y7Z57)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThrogaApp/ThrogaApp-Prefix.pch";
+				INFOPLIST_FILE = "ThrogaApp/ThrogaApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE95E0E5189EE08C00C804CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mick Oyer (5R6F6Y7Z57)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mick Oyer (5R6F6Y7Z57)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThrogaApp/ThrogaApp-Prefix.pch";
+				INFOPLIST_FILE = "ThrogaApp/ThrogaApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE95E0E7189EE08C00C804CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThrogaApp.app/ThrogaApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThrogaApp/ThrogaApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThrogaAppTests/ThrogaAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BE95E0E8189EE08C00C804CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThrogaApp.app/ThrogaApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThrogaApp/ThrogaApp-Prefix.pch";
+				INFOPLIST_FILE = "ThrogaAppTests/ThrogaAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE95E0AC189EE08B00C804CA /* Build configuration list for PBXProject "ThrogaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE95E0E1189EE08C00C804CA /* Debug */,
+				BE95E0E2189EE08C00C804CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE95E0E3189EE08C00C804CA /* Build configuration list for PBXNativeTarget "ThrogaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE95E0E4189EE08C00C804CA /* Debug */,
+				BE95E0E5189EE08C00C804CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE95E0E6189EE08C00C804CA /* Build configuration list for PBXNativeTarget "ThrogaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE95E0E7189EE08C00C804CA /* Debug */,
+				BE95E0E8189EE08C00C804CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE95E0A9189EE08B00C804CA /* Project object */;
+}
